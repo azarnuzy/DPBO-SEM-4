@@ -1,3 +1,6 @@
 */*.exe
 */*.o
 */*.class
+*.exe
+*.class
+*.o
