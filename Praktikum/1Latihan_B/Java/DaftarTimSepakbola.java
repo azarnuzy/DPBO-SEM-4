@@ -37,7 +37,6 @@ public class DaftarTimSepakbola {
         this.nama = nama;
         this.negara = negara;
         this.tahun_berdiri = tahun_berdiri;
-        // this.pemain = pemain;
     }
 
     public void setNama(String nama) {
@@ -64,20 +63,9 @@ public class DaftarTimSepakbola {
         return this.tahun_berdiri;
     }
 
-    /*
-     * public void setPemain(String pemain) {
-     * this.pemain = pemain;
-     * }
-     * 
-     * public String getPemain() {
-     * return this.pemain;
-     * }
-     */
-
     public void printhasil() {
         System.out.println("Nama : " + this.nama);
         System.out.println("Negara : " + this.negara);
         System.out.println("Tahun Berdiri : " + this.tahun_berdiri);
-        // System.out.println("Pemain : " + this.pemain);
     }
 }

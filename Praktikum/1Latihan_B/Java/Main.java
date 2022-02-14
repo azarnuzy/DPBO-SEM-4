@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         DaftarTimSepakbola daftar1 = new DaftarTimSepakbola();
         String nama = "", negara = "", tahunBerdiri = "", kiper = "", bek = "", gelandang = "", penyerang = "";
-        System.out.println("Masukan Input: ");
+        System.out.println("Input: ");
         try {
             System.out.print("Nama: ");
             nama = sc.next();
