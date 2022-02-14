@@ -16,20 +16,20 @@ public class DaftarTimSepakbola {
         Pemain() {
         }
 
-        String kiper(String nama) {
-            return nama;
+        void kiper(String nama) {
+            System.out.println(nama);
         }
 
-        String bek(String nama) {
-            return nama;
+        void bek(String nama) {
+            System.out.println(nama);
         }
 
-        String gelandang(String nama) {
-            return nama;
+        void gelandang(String nama) {
+            System.out.println(nama);
         }
 
-        String penyerang(String nama) {
-            return nama;
+        void penyerang(String nama) {
+            System.out.println(nama);
         }
     }
 
