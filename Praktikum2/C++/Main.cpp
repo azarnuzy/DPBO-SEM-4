@@ -39,11 +39,25 @@ int main(int argc, char const *argv[])
         char next;
         cout << "Lanjut memasukan data (Y/N): ";
         cin >> next;
-        if (next != 'y' || next != 'Y')
+        if (next == 'y' || next == 'Y')
+        {
+            check = true;
+        }
+        else
         {
             check = false;
         }
         i++;
+    }
+
+    cout << "\n";
+    for (int j = 0; j < i; j++)
+    {
+        cout << "Output ke-" << j + 1 << endl;
+        comp[j].printProduct();
+        comp[j].printHardware();
+        comp[j].printMemory();
+        cout << endl;
     }
     return 0;
 }
