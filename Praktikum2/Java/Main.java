@@ -1,4 +1,7 @@
 
+/*Saya Muhammad Azar Nuzy 2004191 mengerjakan Latihan 2 C1 dalam 
+mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan
+seperti yang telah dispesifikasikan. Aamiin*/
 // mengimport kelas utility
 import java.util.Scanner;
 

@@ -1,4 +1,7 @@
 #include <bits/stdc++.h>
+/*Saya Muhammad Azar Nuzy 2004191 mengerjakan Latihan 2 C1 dalam
+mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan
+seperti yang telah dispesifikasikan. Aamiin*/
 using namespace std;
 // mengimport kelas Memory
 #include "Memory.cpp"
