@@ -1,4 +1,11 @@
 class Memory extends Hardware {
+    private String frequency;
+    private int memorySize;
+    private String supportsCuda;
+
+    Memory() {
+    }
+
     public void setFrequency(String frequency) {
         this.frequency = frequency;
     }
@@ -24,8 +31,8 @@ class Memory extends Hardware {
     }
 
     public void printMemory() {
-        System.out.println("Frequency : " + this.frequency);
-        System.out.println("Memory Size : " + this.memorySize);
-        System.out.println("Support Cuda : " + this.supportCuda);
+        System.out.println("Frequency : " + getFrequency());
+        System.out.println("Memory Size : " + getMemorySize());
+        System.out.println("Support Cuda : " + getSupportsCuda());
     }
 }

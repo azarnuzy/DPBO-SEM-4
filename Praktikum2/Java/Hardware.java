@@ -1,4 +1,10 @@
 class Hardware extends Product {
+    private String brand;
+    private String model;
+
+    Hardware() {
+    }
+
     public void setBrand(String brand) {
         this.brand = brand;
     }
@@ -16,7 +22,7 @@ class Hardware extends Product {
     }
 
     public void printHardware() {
-        System.out.println("Brand : " + this.brand);
-        System.out.println("Model : " + this.model);
+        System.out.println("Brand : " + getBrand());
+        System.out.println("Model : " + getModel());
     }
 }

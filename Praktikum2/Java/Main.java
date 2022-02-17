@@ -51,5 +51,10 @@ public class Main {
         comp1.setFrequency(frequency);
         comp1.setMemorySize(memorySize);
         comp1.setSupportsCuda(supportsCuda);
+
+        System.out.println("\nOutput: ");
+        comp1.printProduct();
+        comp1.printHardware();
+        comp1.printMemory();
     }
 }

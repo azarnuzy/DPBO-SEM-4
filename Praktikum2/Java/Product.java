@@ -1,4 +1,10 @@
 class Product {
+    private int price;
+    private int idProduct;
+
+    Product() {
+    }
+
     public void setPrice(int price) {
         this.price = price;
     }
@@ -16,7 +22,7 @@ class Product {
     }
 
     public void printProduct() {
-        System.out.println("Id Product : " + this.idProduct);
-        System.out.println("Price : " + this.price);
+        System.out.println("Id Product : " + getIdProduct());
+        System.out.println("Price : " + getPrice());
     }
 }
