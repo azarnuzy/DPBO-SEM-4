@@ -1,0 +1,20 @@
+<?php
+include("Memory.php");
+# mengimport kelas Memory
+
+#instansiasi
+$comp = new Memory();
+
+# mengeset isi atribut dari kelas-kelas pada memory
+$comp->setIdProduct(1);
+$comp->setPrice(1000000);
+$comp->setBrand("Macbook");
+$comp->setModel("Macbook Pro");
+$comp->setFrequency("2.0Ghz");
+$comp->setMemorySize(8);
+$comp->setSupportsCuda("Intel");
+
+# mencetak atribut ada kelas-kelas yang ada di Memory
+$comp->printProduct();
+$comp->printHardware();
+$comp->printMemory();

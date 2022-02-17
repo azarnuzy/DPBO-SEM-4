@@ -44,9 +44,9 @@ public:
 
     void printMemory()
     {
-        cout << "Frequency : " << getFrequency() << endl;
-        cout << "Memory Size : " << getMemorySize() << endl;
-        cout << "Support Cuda : " << getSupportsCuda() << endl;
+        cout << "Frequency : " << this->getFrequency() << endl;
+        cout << "Memory Size : " << this->getMemorySize() << endl;
+        cout << "Support Cuda : " << this->getSupportsCuda() << endl;
     }
 
     ~Memory() {}

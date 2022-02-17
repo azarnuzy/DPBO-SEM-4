@@ -33,8 +33,8 @@ public:
 
     void printHardware()
     {
-        cout << "Brand : " << getBrand() << endl;
-        cout << "Model : " << getModel() << endl;
+        cout << "Brand : " << this->getBrand() << endl;
+        cout << "Model : " << this->getModel() << endl;
     }
 
     ~Hardware() {}

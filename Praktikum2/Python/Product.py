@@ -22,5 +22,6 @@ class Product:
         return self.idProduct
 
     def printProduct(self):
+        # menampilkan atribut product
         print("Id Product: " + str(self.getIdProduct()))
         print("Price: " + str(self.getPrice()))

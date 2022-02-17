@@ -33,8 +33,8 @@ public:
 
     void printProduct()
     {
-        cout << "Id Product : " << getIdProduct() << endl;
-        cout << "Price : " << getPrice() << endl;
+        cout << "Id Product : " << this->getIdProduct() << endl;
+        cout << "Price : " << this->getPrice() << endl;
     }
 
     ~Product() {}

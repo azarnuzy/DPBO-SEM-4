@@ -27,5 +27,6 @@ class Hardware(Product):
         return self.model
 
     def printHardware(self):
+        # menampilkan atribut hardware
         print("Brand: " + self.getBrand())
         print("Model: " + self.getModel())

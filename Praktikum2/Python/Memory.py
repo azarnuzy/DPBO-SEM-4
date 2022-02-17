@@ -36,6 +36,7 @@ class Memory(Hardware):
         return self.supportsCuda
 
     def printMemory(self):
+        # menampilkan atribut memory
         print("Frequency: " + self.getFrequency())
         print("Memory Size: " + str(self.getMemorySize()))
         print("Supports Cuda: " + self.getSupportsCuda())
