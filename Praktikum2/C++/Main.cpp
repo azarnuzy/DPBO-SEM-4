@@ -1,18 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// mengimport kelas Memory
 #include "Memory.cpp"
 
 int main(int argc, char const *argv[])
 {
+    // instansiasi
     Memory comp[100];
     bool check = true;
     int i = 0;
+
+    // kondisi untuk melakukan perulangan masukan
     while (check)
     {
+        // instansiasi variabel untuk masukan
         string brand, model, frequency, supportsCuda;
         int price, idProduct, memorySize;
 
+        // input untuk setiap atribut yang ada
         cout << "Input: " << endl;
         cout << "Id Product: ";
         cin >> idProduct;
@@ -29,6 +34,7 @@ int main(int argc, char const *argv[])
         cout << "Supports Cuda: ";
         cin >> supportsCuda;
 
+        // mengeset isi atribut dari kelas-kelas pada memory
         comp[i].setIdProduct(idProduct);
         comp[i].setPrice(price);
         comp[i].setBrand(brand);
@@ -36,6 +42,8 @@ int main(int argc, char const *argv[])
         comp[i].setFrequency(frequency);
         comp[i].setMemorySize(memorySize);
         comp[i].setSupportsCuda(supportsCuda);
+
+        // variabel untuk melakukan pengecekan apakah akan lanjut input atau berhenti
         char next;
         cout << "Lanjut memasukan data (Y/N): ";
         cin >> next;
@@ -47,9 +55,11 @@ int main(int argc, char const *argv[])
         {
             check = false;
         }
+        // iterator
         i++;
     }
 
+    // mencetak atribut ada kelas-kelas yang ada di Memory
     cout << "\n";
     for (int j = 0; j < i; j++)
     {
