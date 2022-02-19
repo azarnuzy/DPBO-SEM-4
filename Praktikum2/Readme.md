@@ -20,8 +20,8 @@ Terdapat tiga kelas pada project kali ini yaitu kelas Product, Hardware, dan Mem
   - frequency
   - memorySize
   - supportsCuda
-
-Materi latihan dari kode di repositori ini dapat di temukan di file  [Modul 1 - Implementasi Kelas dan Enkapsulasi](https://github.com/azarnuzy/LATIHAN1DPBO2022.git)
+![DiagramClass2](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/DiagramClass2.jpg)
+Materi latihan dari kode di repositori ini dapat di temukan di file  [Modul 2 - Single and Multilevels Inheritance (Java)](https://github.com/azarnuzy/LATIHAN2DPBO2022.git)
 
 ### Tools
 - [XAMPP](https://www.apachefriends.org/download.html) : PHP 
@@ -60,7 +60,11 @@ py [name].py
 ```
 
 ### Result
-1. C++ 
-2. Java
-3. PHP
-4. Python
+1. C++<br/>
+![CPPResult](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/ScreenShot/CPPResult.jpg)
+2. Java<br/>
+![javaResult](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/ScreenShot/javaResult.jpg)
+3. PHP<br/>
+![PHPResult](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/ScreenShot/PHPResult.jpg)
+4. Python<br/>
+![pythonResult](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/ScreenShot/pythonResult.jpg)
