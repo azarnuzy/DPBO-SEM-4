@@ -10,6 +10,7 @@ Repositori ini dibuat sebagai latihan dari mata kuliah Desain Pemprograman Beror
 
 ### Project Description
 Terdapat tiga kelas pada project kali ini yaitu kelas Product, Hardware, dan Memory. Product merupakan parent dari Hardware dan Hardware merupakan parent dari Memory. Atribut setiap kelas
+<img src="https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/classDiagram2.png" style="height:450px;" align="right">  
 - Product
   - idProduct 
   - price
@@ -20,7 +21,8 @@ Terdapat tiga kelas pada project kali ini yaitu kelas Product, Hardware, dan Mem
   - frequency
   - memorySize
   - supportsCuda
-![DiagramClass2](https://github.com/azarnuzy/LATIHAN2DPBO2022/blob/master/DiagramClass2.jpg)
+
+
 Materi latihan dari kode di repositori ini dapat di temukan di file  [Modul 2 - Single and Multilevels Inheritance (Java)](https://github.com/azarnuzy/LATIHAN2DPBO2022.git)
 
 ### Tools
