@@ -12,13 +12,17 @@ private:
 public:
     // konstruktor
     Processor() {}
+    Processor(string name, int price)
+    {
+        this->name = name;
+        this->price = price;
+    }
 
     // mengeset nilai atribut name
     void setName(string name)
     {
         this->name = name;
     }
-
     // mengembalikan nilai atribut name
     string getName()
     {
@@ -38,7 +42,7 @@ public:
     }
 
     // menampilkan atribut Processor
-    void printDisk()
+    void printProcessor()
     {
         cout << "Processor name : " << this->getName() << endl;
         cout << "Processor Price : " << this->getPrice() << endl;

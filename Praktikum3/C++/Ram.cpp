@@ -12,6 +12,11 @@ private:
 public:
     // konstruktor
     Ram() {}
+    Ram(string capacity, long price)
+    {
+        this->capacity = capacity;
+        this->price = price;
+    }
 
     // mengeset nilai atribut capacity
     void setCapacity(string capacity)

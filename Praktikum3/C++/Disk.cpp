@@ -13,6 +13,12 @@ private:
 public:
     // konstruktor
     Disk() {}
+    Disk(string type, string capacity, int price)
+    {
+        this->type = type;
+        this->capacity = capacity;
+        this->price = price;
+    }
 
     // mengeset nilai atribut type
     void setType(string type)

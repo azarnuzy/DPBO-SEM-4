@@ -10,44 +10,70 @@ class Pc
 {
 private:
     // private atribute dari kelas Pc
-    Processor itemProcessor;
-    Disk itemDisk;
-    Ram itemRam;
+    Processor processorObj;
+    Disk diskObj;
+    Ram ramObj;
     int totalPrice;
 
 public:
     // konstruktor
     Pc() {}
-
-    // mengeset nilai atribut capacity
-    void setCapacity(string capacity)
+    Pc(Processor processorObj, Disk diskObj, Ram ramObj)
     {
-        this->capacity = capacity;
+        this->processorObj = processorObj;
+        this->diskObj = diskObj;
+        this->ramObj = ramObj;
     }
 
-    // mengembalikan nilai atribut capacity
-    string getCapacity()
+    // mengeset nilai atribut processor
+    void setProcessorObj(Processor processorObj)
     {
-        return this->capacity;
+        this->processorObj = processorObj;
+    }
+    // mengeset nilai atribut disk
+    void setDiskObj(Disk diskObj)
+    {
+        this->diskObj = diskObj;
+    }
+    // mengeset nilai atribut ram
+    void setRamObj(Ram ramObj)
+    {
+        this->ramObj = ramObj;
+    }
+    // mengeset nilai atribut totalPrice
+    void setTotalPrice(int processorPrice, int diskPrice, int ramPrice)
+    {
+        this->totalPrice = processorPrice + diskPrice + ramPrice;
     }
 
-    // mengeset nilai atribut price
-    void setPrice(int price)
+    // mengembalikan nilai atribut processor
+    Processor getProcessorObj()
     {
-        this->price = price;
+        return this->processorObj;
     }
-
-    // mengembalikan nilai atribut price
-    int getPrice()
+    // mengembalikan nilai atribut disk
+    Disk getDiskObj()
     {
-        return this->price;
+        return this->diskObj;
     }
-
+    // mengembalikan nilai atribut ram
+    Ram getRamObj()
+    {
+        return this->ramObj;
+    }
+    // mengembalikan nilai atribut totalPrice
+    int getTotalPrice()
+    {
+        return this->totalPrice;
+    }
     // menampilkan atribut Pc
     void printPc()
     {
-        cout << "Pc Capacity : " << this->getCapacity() << endl;
-        cout << "Pc Price : " << this->getPrice() << endl;
+        this->processorObj.printProcessor();
+        this->diskObj.printDisk();
+        this->ramObj.printRam();
+        this->setTotalPrice(this->processorObj.getPrice(), this->diskObj.getPrice(), this->ramObj.getPrice());
+        cout << "Total Price: " << this->getTotalPrice() << endl;
     }
 
     // destructor
