@@ -12,7 +12,7 @@ private:
 public:
     // konstruktor
     Ram() {}
-    Ram(string capacity, long price)
+    Ram(string capacity, int price)
     {
         this->capacity = capacity;
         this->price = price;
