@@ -10,8 +10,8 @@ public class Main {
         // variabel untuk masukan
         Scanner sc = new Scanner(System.in);
         // instansiasi
-        String processorName, diskType, diskCapacity, ramCapacity;
-        int processorPrice, diskPrice, ramPrice;
+        String processorName = "", diskType = "", diskCapacity = "", ramCapacity = "";
+        int processorPrice = 0, diskPrice = 0, ramPrice = 0;
 
         // input untuk setiap atribut yang ada
         System.out.println("Input: ");
@@ -52,16 +52,16 @@ public class Main {
         }
 
         // buat objek processor
-        Processor dataProcessor = Processor(processorName, processorPrice);
+        Processor dataProcessor = new Processor(processorName, processorPrice);
 
         // buat objek disk
-        Disk dataDisk = Disk(diskType, diskCapacity, diskPrice);
+        Disk dataDisk = new Disk(diskType, diskCapacity, diskPrice);
 
         // buat objek ram
-        Ram dataRam = Ram(ramCapacity, ramPrice);
+        Ram dataRam = new Ram(ramCapacity, ramPrice);
 
         // buat objek PC
-        Pc dataPc = Pc(dataProcessor, dataDisk, dataRam);
+        Pc dataPc = new Pc(dataProcessor, dataDisk, dataRam);
 
         // menampilkan hasil atribut yang ada pada kelas
         System.out.println("\nOutput: ");
