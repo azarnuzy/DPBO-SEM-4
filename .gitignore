@@ -5,3 +5,11 @@
 *.class
 *.o
 dontpush
+/Pertemuan5.1-Netbeans/DPBOExcercise/nbproject/private/
+/Pertemuan5.1-Netbeans/DPBOExcercise/build/
+/Pertemuan5.1-Netbeans/CobaDPBO1/nbproject/private/
+/Pertemuan5.1-Netbeans/CobaDPBO1/build/
+/Pertemuan5.1-Netbeans/CobaDPBO1/dist/
+/Pertemuan5.1-Netbeans/CobaLatihan/nbproject/private/
+/Pertemuan5.1-Netbeans/CobaLatihan/build/
+/Pertemuan5.1-Netbeans/CobaLatihan/dist/
